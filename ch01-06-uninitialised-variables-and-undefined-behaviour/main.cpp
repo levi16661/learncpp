@@ -1,6 +1,6 @@
 #include <iostream>
 
-void doNothing(int&)
+void doNothing(int &)
 {
 }
 
@@ -14,9 +14,9 @@ int main()
     // print the value assigned to x to the console
     std::cout << x << '\n';
     */
-    
+
     /// print  how many bytes of memory an int value takes
     std::cout << sizeof(int) << '\n';
-    
+
     return 0;
 }

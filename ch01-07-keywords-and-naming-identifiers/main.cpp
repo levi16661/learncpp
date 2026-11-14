@@ -11,7 +11,7 @@ int main()
     int VaLuE;
     int MyVariableName;
     // invalid
-    int my variable name;
+    // int my variable name;
     
-    return 0
+    return 0;
 }
