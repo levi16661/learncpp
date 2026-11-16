@@ -15,6 +15,14 @@ void doB()
 
 int main()
 {
+    // nested functions are illegal
+    /*
+    void foo()
+    {
+        std::cout << "foo!\n";
+    }
+    foo();
+    */
     std::cout << "starting main()\n";
     // call B
     doB();
