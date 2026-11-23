@@ -5,3 +5,5 @@ int getSquareSides()
 {
     return 4;
 }
+
+#endif
