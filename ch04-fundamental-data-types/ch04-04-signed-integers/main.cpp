@@ -3,7 +3,7 @@
 int main()
 {
     /*
-    // define the 4 standard integer types
+    // define the 4 standard signed integer types
     short s{};
     int i{};
     long l{};
@@ -11,7 +11,7 @@ int main()
     */
 
     /*
-    // assign the maximum value of a 4 byte type to x
+    // assign the maximum value of a 4 byte integer type to x
     int x{2147483647};
 
     // adding 1 takes x outside the range of a 4 byte integer type
@@ -24,7 +24,7 @@ int main()
     // whole quotent integer division
     std::cout << 20 / 4 << '\n';
 
-    // fractional quotent integer division
+    // fractional quotent integer division removes the remainder
     std::cout << 20/6 << '\n';
     
     return 0;
