@@ -15,19 +15,19 @@ int main()
 
     /*
     // string view initialisation
-    using namespace std::string_literals;
 
     std::string_view s1{"Hello world!"};
-    std::cout << s1 << '\n';
-    printStringView(s1);
+    std::cout << sv1 << '\n';
+    printStringView(sv1);
 
-    std::string_view s2{"Hello world!"s};
-    std::cout << s2 << '\n';
-    printStringView(s2);
+    std::string s{"Hello world!"}
+    std::string_view sv2{s};
+    std::cout << sv2 << '\n';
+    printStringView(sv2);
 
-    std::string_view s3{s2};
-    std::cout << s3 << '\n';
-    printStringView(s3);
+    std::string_view sv3{sv2};
+    std::cout << sv3 << '\n';
+    printStringView(sv3);
     */
 
     /*
