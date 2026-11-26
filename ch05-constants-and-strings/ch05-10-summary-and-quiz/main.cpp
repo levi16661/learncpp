@@ -65,6 +65,5 @@ int main()
 
     printOlder(name1, name2, age1, age2);
  
-
     return 0;
 }
