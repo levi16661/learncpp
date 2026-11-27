@@ -5,7 +5,7 @@ extern int g_x;
 extern int g_y;
 extern const int g_z;
 
-// declare external variable
+// constextr can be extrnally linked but can't be forward declared 
 extern constexpr int g_a{3};
 
 int main()
