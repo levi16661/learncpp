@@ -21,7 +21,7 @@ int getStudentNumber()
 // is running
 int accumulate(int x)
 {
-    static int sum{};
+    static int sum{0};
     sum += x;
     return sum;
 }
