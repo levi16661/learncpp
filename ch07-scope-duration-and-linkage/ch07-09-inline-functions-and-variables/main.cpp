@@ -1,3 +1,4 @@
+#include "pi.h"
 #include <iostream>
 
 inline int min(int x, int y)
@@ -7,12 +8,6 @@ inline int min(int x, int y)
 
 // forward declare the circumference function
 double circumference(double radius);
-
-// define an inline function that returns the value of pi
-inline double pi()
-{
-    return 3.14159;
-}
 
 int main()
 {
